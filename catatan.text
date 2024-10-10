@@ -1,0 +1,10 @@
+php artisan filament:optimize
+php artisan filament:optimize-clear
+php artisan route:cache
+php artisan view:clear
+php artisan cache:clear
+php artisan optimize
+php artisan make:filament-resource User --panel=uptd
+php artisan make:policy UserPolicy --model=User
+php artisan make:filament-resource Patient (ganti nama)
+comment upload file exel : composer require maatwebsite/excel
